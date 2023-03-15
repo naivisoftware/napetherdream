@@ -1,0 +1,23 @@
+{
+    "Type": "nap::ModuleInfo",
+    "mID": "ModuleInfo",
+    "RequiredModules": [
+        "napmath",
+        "napscene"
+    ],
+    "WindowsDllSearchPaths": [
+        "{ROOT}/modules/napetherdream/thirdparty/etherdream/msvc/{BUILD_ARCH}/{BUILD_TYPE}"
+    ],
+    "LibrarySearchPaths": {
+        "Linux": [
+            "{ROOT}/modules/napetherdream/thirdparty/etherdream/linux/{BUILD_ARCH}"
+        ],
+        "macOS": [
+            "{ROOT}/modules/napetherdream/thirdparty/etherdream/macos/{BUILD_ARCH}/{BUILD_TYPE}"
+        ],
+        "Windows": [
+            "{ROOT}/modules/napetherdream/thirdparty/etherdream/msvc/{BUILD_ARCH}/{BUILD_TYPE}"
+        ]
+    },
+    "DemoApp": "lineblending"
+}

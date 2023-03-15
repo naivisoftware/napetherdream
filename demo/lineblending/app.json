@@ -1,0 +1,16 @@
+{
+    "Type": "nap::ProjectInfo",
+    "mID": "ProjectInfo",
+    "Title": "LineBlending",
+    "Version": "1.0.0",
+    "Data": "data/lineblending.json",
+    "PathMapping": "cache/path_mapping.json",
+    "ServiceConfig": "",
+    "RequiredModules": [
+        "naplineblending",
+        "napapp",
+        "napimgui",
+        "napcameracontrol",
+        "napparametergui"
+    ]
+}
